@@ -1,3 +1,9 @@
+2.0 (non-cannon :)
+---
+- Added UTF-8 support
+- Added *BSD /dev/speaker compatibility
+- Added ANSI music compatibility
+
 1.3
 ---
 - 8 years have passed!
@@ -14,7 +20,6 @@ and years
 - Table of frequencies added to man page
 - Fix for platforms with unsigned chars
 - On ioctl() errors, beep will now do a printf("\a") so that, at very least, youget a beep.  :)
-
 
 1.2.1
 -----
@@ -50,7 +55,6 @@ and years
 - changed man page to gzip format (instead of bzip2)
 - updated man page and README to explain ioctl problems
 
-
 0.6
 ---
 - added -D option.  Both -d and -D set inter-repetition delay, but -D instructs
@@ -58,7 +62,6 @@ and years
   and terminates immediately after last beep.
 - incorporated Rick Franchuk's idea of stdin hooks - dear god -c is annoying.
 - added a man page
-
 
 0.5
 ---
